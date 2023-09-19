@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(teal, black);
+    display : flex;
+    height : 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container{
+width : 100vw;
+height : 200px;
+background: linear-gradient(rgb(82, 82, 142), rgb(47, 77, 47));
+display : flex;
+justify-content: center;
+align-items: center;
+box-shadow: 0px 0px 10px  3px white;
+}
+
+.circle{
+    width : 30px;
+    height : 25px;
+    border-radius : 50%;
+    background-color: rgb(235, 235, 242);
+    border : 1px solid white;
+    box-shadow: 0px 0px 4px  0px white;
+    transition: background-color 1s linear;
+    
+}
+.line{
+    width : 70px;
+    height : 6px;
+    background-color: azure;
+    transition: background-color 1s linear;
+}
+.line::before{
+    position : absolute;
+    left : 0;
+    width : 0;
+}
+.line::after{
+    position : 
+}
